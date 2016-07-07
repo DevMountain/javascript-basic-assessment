@@ -11,6 +11,14 @@ var bob = {height:'6ft',
   presidentOfTheUnitedStates:false,
   likes:['apples', 'bananas', 'cherries']};
 
+  // Write a function called addItem, that takes in an array, and adds the item to
+  // the array.
+
+  function addItem(arr, item){
+     arr.push(item);
+     return arr;
+  }
+
 // Write a function called removeItem, that takes in an array of strings, and a string.
 // Removes all instances of that string from the array. And return the modified array.
 // The order of the array should not be changed
@@ -24,6 +32,8 @@ function removeItem(arr, item){
   return arr;
 }
 
+
+
 // Write a function doubleTheFun that takes 1 parameter it doubles numbers, and
 // repeats strings example 4->8, 2.5->5, 'Awesome'->'AwesomeAwesome'
 
@@ -31,6 +41,13 @@ function doubleTheFun(i){
   var x = i*2;
   if(x) return x;
   return i + i;
+}
+
+// Write function getValueOfProperty that takes in an object, and the name of a property on the object
+// return the value from the object that corisponds to the property
+
+function getValueOfProperty(obj,prop){
+  return obj[prop];
 }
 
 // Write a function that takes in a message and author parameter
