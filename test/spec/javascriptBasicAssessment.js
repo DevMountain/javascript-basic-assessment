@@ -3,7 +3,7 @@ describe('javascriptBasicAssesment', function () {
 		it('should exist', function () {
 			expect(hello).toEqual(jasmine.any(String));
 		})
-		it('should equal \'I love code\'', function () {
+		it('should equal \'goodbye\'', function () {
 			expect(hello).toEqual('goodbye');
 		})
 	})
@@ -37,7 +37,7 @@ describe('javascriptBasicAssesment', function () {
 		it('should have a color of pink', function () {
 			expect(myShirt.color.toLowerCase()).toEqual('pink')
 		})
-		
+
 		it('should be spandex', function () {
 			expect(myOtherShirt.type.toLowerCase()).toEqual('spandex')
 		})
