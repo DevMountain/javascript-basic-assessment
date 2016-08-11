@@ -68,19 +68,20 @@ describe('javascriptBasicAssesment', function () {
 		});
 	});
 
-	describe('briefing', function () {
+	describe('cow', function () {
 		it('should have 5 properties', function () {
 			var count = 0;
-			for (var prop in briefing) {
+			for (var prop in cow) {
 				count++;
 			}
 			expect(count).toEqual(5);
 		});
 		it('should change properties that start with secret', function () {
-			expect(briefing.secretLocation).toEqual('redacted');
-      expect(briefing.secretWeapon).toEqual('redacted');
-      expect(briefing.secretInfo).toEqual('redacted');
-      expect(briefing.nonsecretCodename).toEqual('purple hippopotamus');
+			expect(cow.eats).toEqual('grass');
+      expect(cow.attitude).toEqual('m');
+      expect(cow.says).toEqual('m');
+      expect(cow.produces).toEqual('m');
+      expect(cow.cares).toEqual(false);
 		});
 	});
 
