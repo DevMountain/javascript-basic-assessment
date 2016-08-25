@@ -13,7 +13,7 @@ You can run the index.html file to see unit tests reporting on your status.
 
 When you have completed the challenges please follow these instructions:
 
-* Open the termal to where this assessment is
+* Open the terminal to where this assessment is
 * Add and commit all of your completed code.
 * Type `git checkout -b gh-pages`
 * Type `git push -u origin gh-pages`
