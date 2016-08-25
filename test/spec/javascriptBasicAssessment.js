@@ -90,7 +90,7 @@ describe('javascriptBasicAssesment', function () {
 			expect(rainbowColors).toEqual(jasmine.any(Array));
 		})
 
-		it('should have all the primary colors', function () {
+		it('should have all the colors of the rainbow', function () {
 			expect(rainbowColors.sort()).toEqual(check);
 		})
 	})
