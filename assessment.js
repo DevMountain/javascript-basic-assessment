@@ -1,3 +1,4 @@
+
 // #1 Create a variable called hello and assign it the string 'goodbye'
 
 
@@ -30,8 +31,8 @@ var myOtherShirt = {
 // Our zoo has 8 monkeys, 4 giraffes and 2 elephants
 
 
-
 // #6 Loop through this object and change all keys that start with the letter s to have a value of 's'
+
 var snake = {
 	sliters: 'sideways',
 	eats: 'rodents',
@@ -40,8 +41,7 @@ var snake = {
 	runs: 'legless'
 };
 
-
-// #7 Create an array of strings that are the 7 colors of the rainbow (lower-case). Call your array rainbowColors
+//#7 Create an array of strings that are the 7 primary colors in the rainbow - red, orange, yellow, green, blue, indigo, violet (lower-case). Call your array rainbowColors
 
 // #8 Using this array do the following
 var heroes = ['superman', 'batman', 'flash'];
@@ -63,22 +63,25 @@ var heroes = ['superman', 'batman', 'flash'];
 
 
 // #10 Write a function called removeItem that takes in an array of strings, and a string.
+
 // Removes all instances of that string from the array. And return the modified array.
 // The order of the array should not be changed
-
 
 // #11 Write a function  called doubleTheFun that takes 1 parameter. It should double numbers, and
 // repeats strings. example 4->8, 2.5->5, 'Awesome'->'AwesomeAwesome'
 
 
+
 // #12 Write function getValueOfProperty that takes in an object, and the name of a property on the object
 // return the value from the object that corresponds to the property
+
 
 // #13 Write a function called makeChatMessage that takes in a message and author as parameters
 // and returns an object with a message, author, and timestamp, that is
 // the current time as a Date object
 
 // #14 Create a function called coderTest that takes in an object that is a person. It looks to see if the person’s name is Jeremy and then changes the person object to have a property called lovesCode with a value of 10.  If their name is Brack set lovesCode to 0.  otherwise set lovesCode to 5.
+
 
 // #15 Create a function called outside that takes in a temperature (number), a humidity(number), and a cloudiness(number), in that order. Using the following to return the correct values
 /*
@@ -91,3 +94,4 @@ var heroes = ['superman', 'batman', 'flash'];
 
 // #16 Create a function called callerBack that takes in a function (holla) and a string parameter(back) and invokes it(holla) with the argument string(back) + ' back'."
 // example - If I call you with 'Give it' you should invoke holla with 'Give it back'
+
