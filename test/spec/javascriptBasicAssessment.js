@@ -3,7 +3,7 @@ describe('javascriptBasicAssesment', function () {
 		it('should exist', function () {
 			expect(hello).toEqual(jasmine.any(String));
 		})
-		it('should equal \'I love code\'', function () {
+		it('should equal \'goodbye\'', function () {
 			expect(hello).toEqual('goodbye');
 		})
 	})
@@ -37,7 +37,7 @@ describe('javascriptBasicAssesment', function () {
 		it('should have a color of pink', function () {
 			expect(myShirt.color.toLowerCase()).toEqual('pink')
 		})
-		
+
 		it('should be spandex', function () {
 			expect(myOtherShirt.type.toLowerCase()).toEqual('spandex')
 		})
@@ -83,15 +83,15 @@ describe('javascriptBasicAssesment', function () {
 		})
 	})
 
-	describe('primaryColors', function () {
+	describe('rainbowColors', function () {
 		var check = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'].sort();
 
 		it('should exist', function () {
-			expect(primaryColors).toEqual(jasmine.any(Array));
+			expect(rainbowColors).toEqual(jasmine.any(Array));
 		})
 
-		it('should have all the primary colors', function () {
-			expect(primaryColors.sort()).toEqual(check);
+		it('should have all the colors of the rainbow', function () {
+			expect(rainbowColors.sort()).toEqual(check);
 		})
 	})
 
