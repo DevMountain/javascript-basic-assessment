@@ -1,11 +1,12 @@
 
 // #1 Create a variable called hello and assign it the string 'goodbye'
 
-
+var hello = 'goodbye'
 
 
 // #2 Use the variable iLove to create a new variable called iLoveCode that is assigned the string "I love code"
-var iLove = 'I love';
+var iLove = 'I love code';
+var iLoveCode = 'I love code';
 
 // #3  Make an object called bob and give it the following properties
 // bob has a height of 6ft (string)
@@ -13,13 +14,23 @@ var iLove = 'I love';
 // bob has hair, that has style spikey, and color brown (object)
 // bob is not presidentOfTheUnitedStates (boolean)
 // bob likes apples, bananas, and cherries (array of strings)
-
+var bob = {
+	height: '6ft',
+	age: 24,
+	hair: {
+		style: 'spikey',
+		color: 'brown'
+	},
+	presidentOfTheUnitedStates: false,
+	likes: ['apples', 'bananas', 'cherries']
+}
 
 // #4 Change my shirt color to pink using dot notation
 var myShirt = {
 	type: 'polo',
 	color: 'red'
 };
+myShirt.color = 'pink';
 
 // Change my shirt type to spandex using square bracket notation
 var myOtherShirt = {
@@ -27,9 +38,16 @@ var myOtherShirt = {
 	color: 'red'
 };
 
+myOtherShirt.type = 'spandex';
+
 // #5 Create an object that tracks a count of animals in a zoo.  Call it 'zoo'
 // The key should be the animal name(string) and the value should be how many there are.
 // Our zoo has 8 monkeys, 4 giraffes and 2 elephants
+var zoo = {
+	monkeys: 8,
+	giraffes: 4,
+	elephants: 2
+}
 
 
 // #6 Loop through this object and change all keys that start with the letter s to have a value of 's'
@@ -41,6 +59,17 @@ var snake = {
 	smells: 'heat',
 	runs: 'legless'
 };
+
+function change(snake) {
+	for( var prop in snake) {
+		if (prop[0] === 's') {
+			snake[prop] = 's'
+		}
+	}
+	return snake;
+}
+change();
+
 
 //#7 Create an array of strings that are the 7 primary colors in the rainbow - red, orange, yellow, green, blue, indigo, violet (lower-case). Call your array rainbowColors
 
