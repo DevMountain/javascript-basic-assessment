@@ -60,27 +60,27 @@ var snake = {
 	runs: 'legless'
 };
 
-function change(snake) {
-	for( var prop in snake) {
-		if (prop[0] === 's') {
-			snake[prop] = 's'
-		}
-	}
-	return snake;
-}
-change();
+// function change(snake) {
+// 	for( var prop in snake) {
+// 		if (prop[0] === 's') {
+// 			snake[prop] = 's'
+// 		}
+// 	}
+// 	return snake;
+// }
+// change();
 
 
 //#7 Create an array of strings that are the 7 primary colors in the rainbow - red, orange, yellow, green, blue, indigo, violet (lower-case). Call your array rainbowColors
-
+var rainbowColors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
 // #8 Using this array do the following
 var heroes = ['superman', 'batman', 'flash'];
 // add 'wonderwoman' to the end
-
+heroes.push('wonderwoman'):
 // remove 'superman' and store him in a variable called firstHero
-
+var firstHero = heroes.splice(1, 1)
 // add 'spongebob' to the start of the array
-
+heroes.unshift('spongebob');
 // remove 'flash' from the array and store him in a variable called secondHero
 
 // leave batman in the array but put a copy of him on a variable called thirdHero
