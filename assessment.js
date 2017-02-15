@@ -58,8 +58,8 @@ var heroes = ['superman', 'batman', 'flash'];
 
 
 
-// #9 Write a function called addItem that takes in an array, an item, and adds the item to
-// the array.
+// #9 Write a function called addItem that takes in an array and an item, adds the item to
+// the array, and returns the array with the added item.
 
 
 // #10 Write a function called removeItem that takes in an array of strings, and a string.
