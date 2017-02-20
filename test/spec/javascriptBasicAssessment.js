@@ -100,12 +100,16 @@ describe('javascriptBasicAssesment', function () {
 			expect(heroes[heroes.length - 1]).toEqual('wonderwoman');
 		})
 		it('should remove \'superman\' and store him in a variable', function () {
+			expect(heroes.indexOf('superman')).toEqual(-1);
 			expect(firstHero).toEqual('superman');
+		})
+		it('should remove \'flash\' and store him in a variable', function () {
+			expect(heroes.indexOf('flash')).toEqual(-1);
+			expect(secondHero).toEqual('flash');
 		})
 		it('should add \'spongebob\' to the start of the array', function () {
 			expect(heroes[0]).toEqual('spongebob');
 		})
-
 		it('should copy batman from the array and store him in a variable', function () {
 			expect(thirdHero).toEqual('batman');
 			expect(heroes.indexOf('batman') > 0).toEqual(true);
