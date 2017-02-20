@@ -1,4 +1,5 @@
 describe('javascriptBasicAssesment', function () {
+
 	describe('hello', function () {
 		it('should exist', function () {
 			expect(hello).toEqual(jasmine.any(String));
@@ -37,12 +38,10 @@ describe('javascriptBasicAssesment', function () {
 		it('should have a color of pink', function () {
 			expect(myShirt.color.toLowerCase()).toEqual('pink')
 		})
-
 		it('should be spandex', function () {
 			expect(myOtherShirt.type.toLowerCase()).toEqual('spandex')
 		})
 	})
-
 
 	describe('zoo', function () {
 		it('should exist', function () {
@@ -54,11 +53,9 @@ describe('javascriptBasicAssesment', function () {
 		it('should have giraffes property', function () {
 			expect(zoo.hasOwnProperty('giraffes')).toEqual(true);
 		})
-
 		it('should have elephants property', function () {
 			expect(zoo.hasOwnProperty('elephants')).toEqual(true);
 		})
-
 		it('should count the animals correctly', function () {
 			expect(zoo.monkeys).toEqual(8)
 			expect(zoo.giraffes).toEqual(4)
@@ -89,7 +86,6 @@ describe('javascriptBasicAssesment', function () {
 		it('should exist', function () {
 			expect(rainbowColors).toEqual(jasmine.any(Array));
 		})
-
 		it('should have all the colors of the rainbow', function () {
 			expect(rainbowColors.sort()).toEqual(check);
 		})
@@ -115,8 +111,6 @@ describe('javascriptBasicAssesment', function () {
 			expect(heroes.indexOf('batman') > 0).toEqual(true);
 		})
 	})
-
-
 
 	describe('addItem', function () {
 		it('should exist', function () {
@@ -144,8 +138,6 @@ describe('javascriptBasicAssesment', function () {
 			expect(removeItem(["A", "A", "A", "A"], "A")).toEqual([]);
 		})
 	})
-
-
 
 	describe('doubleTheFun', function () {
 		it('should exist', function () {
@@ -195,21 +187,18 @@ describe('javascriptBasicAssesment', function () {
 		it('should exist', function () {
 			expect(coderTest).toBeDefined();
 		})
-
 		it('recognizes Jeremy thinks too much of himself', function () {
 			var person = { name: 'Jeremy' };
 			coderTest(person)
 
 			expect(person.lovesCode).toEqual(10)
 		})
-
 		it('undervalues Brack', function () {
 			var person = { name: 'Brack' };
 			coderTest(person)
 
 			expect(person.lovesCode).toEqual(0)
 		})
-
 		it('lumps anyone else into the same bucket', function () {
 			var person = { name: 'Brett' };
 			coderTest(person)
@@ -222,43 +211,36 @@ describe('javascriptBasicAssesment', function () {
 		it('should exist', function () {
 			expect(outside).toBeDefined();
 		})
-
 		it('should warn me I will be sweaty', function () {
 			var res = outside(81, 41);
 
 			expect(res).toEqual("I'm all sweat")
 		})
-
 		it('should say something silly about icecicles', function () {
 			var res = outside(10, 0, 90);
 
 			expect(res).toEqual("I have icecicles")
 		})
-
 		it('should inform me I am in the desert', function () {
 			var res = outside(81, 39, 19);
 
 			expect(res).toEqual("I'm literally in the desert")
 		})
-
 		it('should make me hesitate about life choices - hot', function () {
 			var res = outside(81, 20, 45);
 
 			expect(res).toEqual("Hmm, probably not")
 		})
-
 		it('should make me hesitate about life choices - humid', function () {
 			var res = outside(79, 51, 45);
 
 			expect(res).toEqual("Hmm, probably not")
 		})
-
 		it('should make me hesitate about life choices - cloudy', function () {
 			var res = outside(79, 20, 55);
 
 			expect(res).toEqual("Hmm, probably not")
 		})
-
 		it('should encourage me to go outside', function () {
 			var res = outside(79, 20, 45);
 
