@@ -99,11 +99,11 @@ describe('javascriptBasicAssesment', function () {
 		it('should add \'wonderwoman\' to the end', function () {
 			expect(heroes[heroes.length - 1]).toEqual('wonderwoman');
 		})
-		it('should remove \'superman\' and store him in a variable', function () {
+		it('should remove \'superman\' from the array and store him in a variable', function () {
 			expect(heroes.indexOf('superman')).toEqual(-1);
 			expect(firstHero).toEqual('superman');
 		})
-		it('should remove \'flash\' and store him in a variable', function () {
+		it('should remove \'flash\' from the array and store him in a variable', function () {
 			expect(heroes.indexOf('flash')).toEqual(-1);
 			expect(secondHero).toEqual('flash');
 		})
