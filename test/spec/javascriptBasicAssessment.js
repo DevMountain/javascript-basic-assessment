@@ -91,7 +91,7 @@ describe('javascriptBasicAssesment', function () {
 	})
 
 	describe('heroes', function () {
-		it('should add \'wonderwoman\' to the end', function () {
+		it('should add \'wonderwoman\' to the end of the array', function () {
 			expect(heroes[heroes.length - 1]).toEqual('wonderwoman');
 		})
 		it('should remove \'superman\' from the array and store him in a variable', function () {
