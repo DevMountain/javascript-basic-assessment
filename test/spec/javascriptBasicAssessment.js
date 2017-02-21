@@ -1,6 +1,9 @@
 describe('javascriptBasicAssesment', function () {
 	describe('hello', function () {
 		it('should exist', function () {
+			expect(hello).toBeDefined();
+		})
+		it('should store a string value', function () {
 			expect(hello).toEqual(jasmine.any(String));
 		})
 		it('should equal \'goodbye\'', function () {
@@ -10,6 +13,9 @@ describe('javascriptBasicAssesment', function () {
 
 	describe('iLoveCode', function () {
 		it('should exist', function () {
+			expect(iLoveCode).toBeDefined();
+		})
+		it('should store a string value', function () {
 			expect(iLoveCode).toEqual(jasmine.any(String));
 		})
 		it('should equal \'I love code\'', function () {
