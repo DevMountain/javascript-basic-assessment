@@ -181,7 +181,6 @@ describe('javascriptBasicAssesment', function () {
 		})
 	})
 
-
 	describe('coderTest', function () {
 		it('should exist', function () {
 			expect(coderTest).toBeDefined();
@@ -212,37 +211,30 @@ describe('javascriptBasicAssesment', function () {
 		})
 		it('should warn me I will be sweaty', function () {
 			var res = outside(81, 41);
-
 			expect(res).toEqual("I'm all sweat")
 		})
 		it('should say something silly about icecicles', function () {
 			var res = outside(10, 0, 90);
-
 			expect(res).toEqual("I have icecicles")
 		})
 		it('should inform me I am in the desert', function () {
 			var res = outside(81, 39, 19);
-
 			expect(res).toEqual("I'm literally in the desert")
 		})
 		it('should make me hesitate about life choices - hot', function () {
 			var res = outside(81, 20, 45);
-
 			expect(res).toEqual("Hmm, probably not")
 		})
 		it('should make me hesitate about life choices - humid', function () {
 			var res = outside(79, 51, 45);
-
 			expect(res).toEqual("Hmm, probably not")
 		})
 		it('should make me hesitate about life choices - cloudy', function () {
 			var res = outside(79, 20, 55);
-
 			expect(res).toEqual("Hmm, probably not")
 		})
 		it('should encourage me to go outside', function () {
 			var res = outside(79, 20, 45);
-
 			expect(res).toEqual("I love outside")
 		})
 	})
