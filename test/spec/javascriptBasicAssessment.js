@@ -27,15 +27,18 @@ describe('javascriptBasicAssesment', function () {
 		it('should exist', function () {
 			expect(bob).toBeDefined();
 		})
-		it('should be as described', function () {
+		it('should store an object', function () {
+			expect(bob).toEqual(jasmine.any(Object));
+		})
+		it('should have all described properties and values', function () {
 			expect(bob.height).toEqual("6ft");
 			expect(bob.age).toEqual(24);
 			expect(bob.hair.style).toEqual("spikey");
 			expect(bob.hair.color).toEqual("brown");
 			expect(bob.presidentOfTheUnitedStates).toEqual(false);
-			expect(bob.likes).toContain('apples')
-			expect(bob.likes).toContain('bananas')
-			expect(bob.likes).toContain('cherries')
+			expect(bob.likes).toContain('apples');
+			expect(bob.likes).toContain('bananas');
+			expect(bob.likes).toContain('cherries');
 		})
 	})
 
