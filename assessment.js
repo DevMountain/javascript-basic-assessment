@@ -86,7 +86,7 @@ var heroes = ['superman', 'batman', 'flash'];
 // #15 Create a function called outside that takes in a temperature (number), a humidity(number), and a cloudiness(number), in that order. Using the following to return the correct values
 /*
     temperature over 80 and humidity over 40 - return "I'm all sweat"
-    temperature under 40 and cloudiness over 60 - return "I have icecicles"
+    temperature under 40 and cloudiness over 60 - return "I have icicles"
     temperature over 80 and humidity under 40 and cloudiness under 20 - return "I'm literally in the desert"
     temperature over 80 or humidity over 50 or cloudiness over 50 - return "Hmm, probably not"
     Otherwise - return "I love outside"
