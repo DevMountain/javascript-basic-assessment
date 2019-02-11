@@ -225,10 +225,10 @@ describe('javascriptBasicAssesment', function () {
 			expect(res).toEqual("I'm all sweat")
 		})
 
-		it('should say something silly about icecicles', function () {
+		it('should say something silly about icicles', function () {
 			var res = outside(10, 0, 90);
 
-			expect(res).toEqual("I have icecicles")
+			expect(res).toEqual("I have icicles")
 		})
 
 		it('should inform me I am in the desert', function () {
